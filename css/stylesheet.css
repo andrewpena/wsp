@@ -2,9 +2,10 @@ body {
 	font-size: 100%;
 	max-width: 1024px;
 	margin: 0 auto;
-	font-family: 'life savers';
-	background-color: #ccc;
+	font-family: 'life savers', cursive, serif;
+	background-image: url('../images/bit-tile-blue.gif');
 	color: #000;
+	
 }
 
 #wrapper {
@@ -20,7 +21,7 @@ body {
 header {	
 	overflow: hidden;
 	margin-bottom: 25px; 
-	
+	background-image: url('../images/soft-grid.gif');
 }
 
 #header_image {
@@ -32,10 +33,14 @@ header {
 	
 
 h1 { 
-	font: 5em griffy, cursive, serif;	
+	font: 6em griffy, cursive, serif;	
 	float: left;
 	text-align: center;
 	padding-left: 50px;    	
+}
+
+p {
+	font-family: 'Quicksand', sans-serif, serif;
 }
  
 
@@ -45,6 +50,7 @@ ol {
 	margin: 0 auto;
 	list-style-type: none;
 	padding-left: 50px;
+	font-family: 'Alex Brush', cursive, serif;
 }
 
 ol li {
@@ -63,6 +69,11 @@ ul {
 	padding: 10px;
 	margin: 25px 35px 0 0;
 	width: 325px;
+	border: 5px ridge #000;
+	margin: 10px;
+	background-color: #a6fafa;
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px #000;
 	
 }
 
@@ -88,12 +99,13 @@ ul {
 	padding-top: 90px;
 }
 
-footer {
-	font: 3em arial, cursive, serif; 
+footer p {
+	font: 4em 'Shadows Into Light', cursive, serif; 
 	text-align: center;
 	color: #000;
 	clear: both;
 	padding: 5px 0;
+	background-image: url('../images/spectrum.png');
 }
 	
 
