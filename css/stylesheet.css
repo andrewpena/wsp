@@ -3,9 +3,8 @@ body {
 	max-width: 1024px;
 	margin: 0 auto;
 	font-family: 'life savers', cursive, serif;
-	background-image: url('../images/bit-tile-blue.gif');
+	background: linear-gradient(#a6fafa, #000);
 	color: #000;
-	
 }
 
 #wrapper {
@@ -20,31 +19,27 @@ body {
 
 header {	
 	overflow: hidden;
-	margin-bottom: 25px; 
-	background-image: url('../images/soft-grid.gif');
+	margin-bottom: 25px;
 }
 
 #header_image {
 	max-width: 100%;
 	float: left;
 	padding: 10px;
-	margin: 25px auto; 
+	margin: 25px auto;
 }
-	
 
-h1 { 
+h1 {
 	font: 6em griffy, cursive, serif;	
 	float: left;
 	text-align: center;
-	padding-left: 50px;    	
+	padding-left: 50px;
 }
 
 p {
 	font-family: 'Quicksand', sans-serif, serif;
 }
- 
 
- 
 ol {
 	width: 400px;
 	margin: 0 auto;
@@ -55,15 +50,15 @@ ol {
 
 ol li {
 	width: 100px;
-	height: 30px; 
+	height: 30px;
 	float: left;
 	text-align: center;	
 }
-	
+
 ul {
 	list-style-type: none;	
 }
-	
+
 #filter_search {
 	Float: left;
 	padding: 10px;
@@ -74,7 +69,6 @@ ul {
 	background-color: #a6fafa;
 	border-radius: 25px;
 	box-shadow: 5px 5px 5px #000;
-	
 }
 
 .container {
@@ -84,7 +78,7 @@ ul {
 .button {
 	margin-top: 10px;
 }
-	
+
 #camera img {
 	margin-left: 50px;
 }
@@ -100,14 +94,12 @@ ul {
 }
 
 footer p {
-	font: 4em 'Shadows Into Light', cursive, serif; 
+	font: 4em 'Shadows Into Light', cursive, serif;
 	text-align: center;
 	color: #000;
 	clear: both;
 	padding: 5px 0;
-	background-image: url('../images/spectrum.png');
 }
-	
 
 /*Form Style
 =====================================================================*/
@@ -149,4 +141,3 @@ input:focus {
 	padding-top: 5px;
 	margin-left: -175px;
 }
-
